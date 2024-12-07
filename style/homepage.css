@@ -1,6 +1,8 @@
 .about-me{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-items: space-around;
 }
 
 .about-me-name{
@@ -17,22 +19,42 @@
 }
 
 .links{
-    text-align:center;
+    margin-left: 3em;
 }
 
 .about-me img{
     display: block;
-    max-width: 36%;
+    max-width: 23%;
     object-fit: contain;
+    float: right;
 }
 
 
 @media screen and (max-width: 696px) {
     .about-me{
         flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        /* text-align: center; */
     }
 
-    .about-me:nth-child(2){
+    .about-me-name{
+        margin: 0;
+    }
+
+    .about-me img{
+        max-width: 60%;
+        margin: 1em 0;
+    }
+
+    .about-me-text{
         order: 1;
+        width: 80%;
+        padding: 0;
+    }
+
+    .links{
+        width: 100%;
+        margin: 0;
     }
 }
