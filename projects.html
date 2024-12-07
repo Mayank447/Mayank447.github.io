@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Hi, Mayank Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -15,19 +14,22 @@
     gtag('config', 'G-X59KRN5728');
     </script>
 
-
     <title>Mayank</title>
-
     <meta name="author" content="Mayank">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- CSS files -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="sheets/stylesheet.css">
+    <link rel="stylesheet" href="sheets/project.css">
+    
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="scripts/stylescript.js"></script>
-    <link rel="stylesheet" type="text/css" href="sheets/stylesheet.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/Letter_M_apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/Letter_M_favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/Letter_M_favicon-16x16.png">
@@ -38,11 +40,14 @@
 </head>
 
 <body>
+
+<!-- NAVBAR -->
+<header>
     <nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">Mayank</a>
             </div>
@@ -57,125 +62,94 @@
             </div>
         </div>
     </nav>
+</header>
+                        
+<section class="project-container">
+    <heading>
+        <b>Projects</b>
+    </heading>
 
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-            <tr style="padding:0px">
-                <td style="padding:0px">
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading><b>Projects</b></heading>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <!-- Network File System -->
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <!-- <tr bgcolor="#ffffd0"> -->
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle; text-align:center">
-                                    <img src="images/nfs_2.png" alt="NFS" width="240" height="160">
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-
-                                    <papertitle><b>Network File System</b></papertitle>
-                                    <br>
-                                    <!-- <font color="red"><strong>(Supported by Unitary Fund)</strong></font>
-                                    <br> -->
-                                    <a href="https://github.com/Mayank447/Network-File-System-NFS-">Codebase</a>
-                                    <p></p>
-                                    <p>
-                                        Implemented in C, a Distributed file system constisting of Storage Servers, Clients and Name Server. <br>
-                                        Added support for Caching, Efficient search, Dynamic Storage server addition,
-                                        Concurrent File Reading and efficient Data Replication (in case of storage server
-                                        failure).
-                                </td>
-                            </tr>
-
-                            
-                            <!-- C-Shell -->
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle; text-align:center">
-                                    <img src="images/cshell.png" alt="C-Shell" width="300" height="180">
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-
-                                    <papertitle><b>C-Shell</b></papertitle>
-                                    <br>
-                                    <a href="https://github.com/Mayank447/C-Shell">Codebase</a>
-                                    <p></p>
-                                    <p>
-                                        Built an Unix Shell in C from scratch. <br>
-                                        Implemented Pipes, IO redirection, foreground and background processes, command history, Signal handler.
-                                        Currently working on adding support for autocomplete and running shell scripts.
-                                </td>
-                            </tr>
+    <!-- Network File System -->
+    <div class="project-block">
+        <img src="images/nfs_2.png" alt="NFS" />
+        <div  class="project-desc">
+            <b>Network File System</b>
+            <br>
+            <a href="https://github.com/Mayank447/Network-File-System-NFS-">Codebase</a>
+            <br><br>
+            <p>
+                Implemented in C, a Distributed file system constisting of Storage Servers, Clients and Name Server. <br>
+                Added support for Caching, Efficient search, Dynamic Storage server addition,
+                Concurrent File Reading and efficient Data Replication (in case of storage server
+                failure).
+        </div>
+    </div>
 
 
-                            <!-- MyTorch -->
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle; text-align:center">
-                                    <img src="images/mytorch.png" alt="MyTorch" width="300" height="70">
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-
-                                    <papertitle><b>MyTorch</b></papertitle>
-                                    <br>
-                                    <!-- <a href="https://github.com/Mayank447/C-Shell">Codebase</a> -->
-                                    <p></p>
-                                    <p>
-                                        Developed a modular library similar to PyTorch completely written in Python and
-                                        C++ with support for GPU acceleration and auto-differentiation. <br>
-                                        Implemented MLPs, CNNs, RNNs, LSTM, Transformers, VAEs, GANs, GNNs, Hopfield networks and Boltzmann Machines.
-                                </td>
-                            </tr>
+    <!-- C-Shell -->
+    <div class="project-block">
+        <img src="images/cshell.png" alt="C-Shell" />
+        <div class="project-desc">
+            <b>C-Shell</b>
+            <br>
+            <a href="https://github.com/Mayank447/C-Shell">Codebase</a>
+            <br><br>
+            <p>
+                Built an Unix Shell in C from scratch. <br>
+                Implemented Pipes, IO redirection, foreground and background processes, command history, Signal handler.
+                Currently working on adding support for autocomplete and running shell scripts.
+            </p>
+        </div>
+    </div>
 
 
-                            <!-- Scotty 3D -->
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle; text-align:center">
-                                    <img src="images/Scotty3D.png" alt="Scotty 3D" width="340" height="200">
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-
-                                    <papertitle><b>Scotty 3D</b></papertitle>
-                                    <br>
-                                    <!-- <a href="https://github.com/Mayank447/C-Shell">Codebase</a> -->
-                                    <p></p>
-                                    <p>
-                                        Created a 3D graphics software similar to Blender, Maya etc. Implemented 
-                                        Rasterization, Mash-editing, rendering, animation, Physics simulation,
-                                        Inverse kinematics etc.
-                                </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
+    <!-- MyTorch -->
+    <div class="project-block">
+        <img src="images/mytorch.png" alt="My-Torch" />
+        <div class="project-desc">
+            <b>MyTorch</b>
+            <!-- <br><a href="https://github.com/Mayank447/C-Shell">Codebase</a> -->
+            <br><br>
+            <p>
+                Developed a modular library similar to PyTorch completely written in Python and
+                C++ with support for GPU acceleration and auto-differentiation. <br>
+                Implemented MLPs, CNNs, RNNs, LSTM, Transformers, VAEs, GANs, GNNs, Hopfield networks and Boltzmann Machines.
+            </p>
+        </div>
+    </div>
 
 
+    <!-- Scotty 3D -->
+    <div class="project-block">
+        <img src="images/Scotty3D.png" alt="Scotty 3D" />
+        <div class="project-desc">
+            <b>Scotty 3D</b>
+            <!-- <br> <a href="https://github.com/Mayank447/C-Shell">Codebase</a> -->
+            <br><br>
+            <p>
+                Created a 3D graphics software similar to Blender, Maya etc. Implemented 
+                Rasterization, Mash-editing, rendering, animation, Physics simulation,
+                Inverse kinematics etc.
+            </p>
+        </div>
+    </div>
+</section>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:0px">
-                                    <br>
-                                    <p style="text-align:right; font-size:smaller">
-                                        Like the aesthetic? Feel free to use the website's <a href="https://github.com/Mayank447/mayank447.github.io" style="font-size:xx-small"> code </a> for your own webpages
-                                    </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+            <td style="padding:0px">
+                <br>
+                <p style="text-align:right; font-size:smaller">
+                    Like the aesthetic? Feel free to use the website's <a href="https://github.com/Mayank447/mayank447.github.io" style="font-size:xx-small"> code </a> for your own webpages
+                </p>
+            </td>
+        </tr>
 
 
-                </td>
-            </tr>
-    </table>
+        </tbody>
+</table>
 </body>
 
 </html>

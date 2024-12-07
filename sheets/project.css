@@ -1,0 +1,76 @@
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 1.25em;
+    margin-left: 1.25em;
+}
+
+heading{
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.project-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-block img{
+    width: 30%;
+    float: left;
+    padding:1.25em;
+    padding-left: 0;
+}
+
+.project-desc {
+    padding:1.4em;
+    vertical-align:middle;
+}
+
+/* For Tablets */
+@media screen and (max-width: 1024px) {
+    .project-block img{
+        width: 40%;
+    }
+    .project-desc {
+        padding:10px;
+    }
+}
+
+/* For phone screens */
+@media screen and (max-width: 696px) {
+    .project-container{
+        justify-content: center;
+    }
+
+    heading{
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .project-block{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .project-block img{
+        width: 100%;
+    }
+
+    .project-desc {
+        padding-inline: 1.5em;
+    }
+
+    .project-desc b{
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+    
+}
