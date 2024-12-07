@@ -1,3 +1,5 @@
+@import url('font.css');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +7,87 @@
 }
 
 body{
+    min-height: 100vh;
+    background-color: #f8f9fa;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
+/* Styling the links */
+a{
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    text-decoration-color: azure;
+}
+
+
+/* NAVBAR */
+.nav-item, .nav-link {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    align-self: auto;
+    vertical-align: middle;
+}
+
+.navbar {
+    padding: 8px 22px 8px 22px;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+}
+
+
+/* General tags */
+@import url('font.css');
+
+strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+sectiontitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+/* FOOTER */
 footer{
     text-align:right;
     padding-inline:4em;

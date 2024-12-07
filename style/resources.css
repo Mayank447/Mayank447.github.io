@@ -23,7 +23,7 @@
 
 .subject h2{
     margin-left:2em; 
-    font-size: large; 
+    font-size: 1.3rem; 
     font-weight: 700;
     text-decoration: underline; 
 }
@@ -43,8 +43,20 @@
     align-self: center;
     padding: 1em;
     width:25%;
+    object-fit: contain;
 }
 
 .resource-desc{
     padding: 1em;
+}
+
+@media screen and (max-width: 696px){
+    .resource-block{
+        flex-direction: column;
+    }
+
+    .resource-block img{
+        width: 75%;
+    }
+    
 }

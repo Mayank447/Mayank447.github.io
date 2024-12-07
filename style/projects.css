@@ -22,6 +22,7 @@ heading{
     width: 30%;
     padding:1.25em;
     padding-left: 0;
+    object-fit: contain;
 }
 
 .project-desc {
