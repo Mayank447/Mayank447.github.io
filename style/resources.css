@@ -1,0 +1,50 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .desc{
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.subject{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.subject h1{
+    margin-left:2em; 
+    font-size: x-large; 
+    font-weight: 700;
+    text-decoration: underline; 
+}
+
+.subject h2{
+    margin-left:2em; 
+    font-size: large; 
+    font-weight: 700;
+    text-decoration: underline; 
+}
+
+.exceptional{
+    background-color: #ffffd0;
+}
+
+.resource-block{
+    display: flex;
+    flex-direction: row;
+    margin: 1.25em;
+    margin-bottom: 3em;
+}
+
+.resource-block img{
+    align-self: center;
+    padding: 1em;
+    width:25%;
+}
+
+.resource-desc{
+    padding: 1em;
+}
