@@ -1,0 +1,30 @@
+.blog-type{
+    padding: 20px;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.blog-block{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+}
+
+.blog-block img{
+    margin-bottom: 1em;
+}
+
+/* Desktop and Tablet view */
+@media screen and (min-width: 696px) {
+    .blog-block{
+        flex-direction: row;
+    }
+    
+    .blog-block img{
+        width: 30%;
+        object-fit: contain;
+        margin-right: 2em;
+    }
+}

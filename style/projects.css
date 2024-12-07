@@ -1,13 +1,13 @@
-.project-container{
+main{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: left;
     margin-top: 1.25em;
     margin-left: 1.25em;
 }
 
 heading{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-left: 0.5em;
     margin-bottom: 0.5em;
@@ -42,7 +42,7 @@ heading{
 
 /* For phone screens */
 @media screen and (max-width: 696px) {
-    .project-container{
+    main{
         justify-content: center;
     }
 

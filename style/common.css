@@ -86,17 +86,16 @@ name {
     font-weight: 700;
 }
 
+main{
+    flex: 1;
+}
+
 
 /* FOOTER */
-footer{
+footer p{
     text-align:right;
     padding-inline:4em;
     font-size:0.7rem;
-    flex: 1
-}
-
-footer a{
-    font-size: 0.7rem;
 }
 
 .copyright{
