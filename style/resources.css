@@ -1,11 +1,12 @@
 main{
     display: flex;
     flex-direction: column;
-    width:90%;
+    justify-items: center;
+    align-items: center;
 }
 
-.main-content .desc{
-    margin-left: 3em;
+main .desc{
+    margin-left: 1em;
     margin-bottom: 1em;
 }
 
@@ -13,20 +14,13 @@ main{
     display: flex;
     flex-direction: column;
     text-align: left;
-}
-
-.subject h1{
-    margin-left:2em; 
-    font-size: x-large; 
-    font-weight: 700;
-    text-decoration: underline; 
+    width:95%;
 }
 
 .subject h2{
-    margin-left:2em; 
-    font-size: 1.3rem; 
-    font-weight: 700;
-    text-decoration: underline; 
+    margin-left:1em; 
+    font-size: 1.75rem; 
+    font-weight: 800;
 }
 
 .exceptional{
@@ -59,5 +53,4 @@ main{
     .resource-block img{
         width: 75%;
     }
-    
 }
