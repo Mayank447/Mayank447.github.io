@@ -1,13 +1,13 @@
 main{
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
-main .desc{
-    margin-left: 1em;
-    margin-bottom: 1em;
+.desc{
+    width: 90%;
+    margin-bottom: 1.5em;
 }
 
 .subject{

@@ -63,9 +63,28 @@ strong {
     font-size: 16px;
 }
 
+mainheading{
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    padding: 1.25rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding-left: 0;
+}
+
 heading {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    padding: 20px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding-left: 0;
+}
+
+subheading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    padding: 1em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 0;
 }
 
 sectiontitle {

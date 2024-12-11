@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-items: space-around;
+    justify-content: space-around;
 }
 
 .about-me-name{
@@ -16,17 +16,21 @@
 .about-me-text{
     padding:2.5%;
     width:65%;
+    padding-bottom: 0;
 }
 
 .links{
-    margin-left: 3em;
+    margin-left: 4em;
 }
 
 .about-me img{
     display: block;
     max-width: 23%;
     object-fit: contain;
-    float: right;
+}
+
+.recent-updates, .achievements{
+    margin: 3em;
 }
 
 
@@ -54,6 +58,10 @@
 
     .links{
         width: 100%;
-        margin: 0;
+        margin-left: 2.5em;
+    }
+
+    .recent-updates, .achievements{
+        margin: 1.5em;
     }
 }

@@ -6,13 +6,6 @@ main{
     margin-left: 1.25em;
 }
 
-heading{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-left: 0.5em;
-    margin-bottom: 0.5em;
-}
-
 .project-block{
     display: flex;
     flex-direction: row;
@@ -44,12 +37,11 @@ heading{
 @media screen and (max-width: 696px) {
     main{
         justify-content: center;
+        gap: 1.5rem;
     }
 
-    heading{
-        font-size: 2rem;
-        text-align: center;
-        margin: 0;
+    main heading{
+        font-size: 2.5rem;
     }
 
     .project-block{
@@ -70,7 +62,7 @@ heading{
 
     .project-desc b{
         font-size: 1.5rem;
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
     
 }
